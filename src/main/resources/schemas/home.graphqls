@@ -1,0 +1,10 @@
+type Query {
+    hello: String
+    bio(userRequest: UserRequest): String
+}
+
+input UserRequest {
+    name: String
+    age: Long
+    location: String
+}
